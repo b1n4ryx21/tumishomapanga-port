@@ -6,7 +6,7 @@ const helmet = require("helmet");
 const compression = require("compression");
 const port = process.env.PORT || 5500
 // Install express-static-cache to improve static content loading time
-// const staticCache = require("express-static-cache");
+const staticCache = require("express-static-cache");
 
 const app = express();
 
@@ -14,10 +14,10 @@ const app = express();
 app.use(express.static("public"));
 
 // Cache Static Content
-// app.use(staticCache(path.join(__dirname, 'public'), {
-//     maxAge: 86400000, // Cache duration in milliseconds (1 day)
-//     gzip: true
-// }));
+app.use(staticCache(path.join(__dirname, 'public'), {
+    maxAge: 365 * 24 * 60 * 60, // Cache duration in milliseconds (1 day)
+    gzip: true
+}));
 
 // Enable CORS
 app.use(cors())

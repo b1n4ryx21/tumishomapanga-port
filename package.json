@@ -14,6 +14,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.2",
+    "express-static-cache": "^0.0.6",
     "gsap": "^3.12.5",
     "helmet": "^7.1.0",
     "split-type": "^0.3.4"
