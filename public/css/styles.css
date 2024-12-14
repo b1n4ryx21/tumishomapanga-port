@@ -162,7 +162,7 @@ body {
                 font-size: 65px;
                 font-family: "NT-Bld";
                 word-spacing: 1.5px;
-                background: linear-gradient(to right, #001414, #0c0c0c);
+                background: linear-gradient(45deg, #001414, #0c0c0c);
                 background-clip: text;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -240,7 +240,7 @@ body {
             font-size: 70px;
             text-decoration: none;
             padding-left: 8px;
-            background: linear-gradient(to right, #001414, #0c0c0c);
+            background: linear-gradient(45deg, #001414, #0c0c0c);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -346,7 +346,7 @@ body {
             font-size: 70px;
             text-decoration: none;
             padding-left: 8px;
-            background: linear-gradient(to right, #001414, #0c0c0c);
+            background: linear-gradient(45deg, #001414, #0c0c0c);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -452,7 +452,7 @@ body {
             font-size: 70px;
             text-decoration: none;
             padding-left: 8px;
-            background: linear-gradient(to right, #001414, #0c0c0c);
+            background: linear-gradient(45deg, #001414, #0c0c0c);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -481,7 +481,7 @@ body {
                 font-size: 70px;
                 font-family: "NT-Bld";
                 word-spacing: 1.5px;
-                background: linear-gradient(to right, #001414, #0c0c0c);
+                background: linear-gradient(45deg, #001414, #0c0c0c);
                 background-clip: text;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
