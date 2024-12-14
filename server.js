@@ -56,29 +56,9 @@ app.get("/", (req, res) => {
 
 
 app.get("/notfound", (req, res) => {
-    res.sendFile(path.join(__dirname, "/public/pages/404.html"));
+    res.sendFile(path.join(__dirname, "/public/static/notfound.html"));
 })
 
-
-// Error Handling
-app.all("*", (req, res, next) => {
-    const err = new Error(`Cannot find ${req.originalUrl} on the server`);
-    err.status = "fail";
-    err.statusCode = 404;
-    next(err);
-})
-
-app.use((error, req, res, next) => {
-    if (error.statusCode == 404) {
-        error.statusCode = error.statusCode;
-        error.status = error.status || "error";
-        res.status(error.statusCode).redirect("/notfound");
-    } else {
-        error.statusCode = 500;
-        error.status = "Internal Server Error";
-        res.status(error.statusCode).redirect("/servererror");
-    }
-})
 
 // Global Error Handling Compare
 
