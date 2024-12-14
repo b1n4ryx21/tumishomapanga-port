@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-maintenance-25",
+  "version": "1.25.0",
+  "description": "Portfolio Site",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "author": "Tumisho Mapanga",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "gsap": "^3.12.5",
+    "helmet": "^7.1.0",
+    "split-type": "^0.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
